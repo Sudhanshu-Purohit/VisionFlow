@@ -20,7 +20,7 @@ const EmptyBoard = () => {
       orgId: organization.id,
       title: "Untitled"
     }).then((id) => {
-      toast.success("Board has been created")
+      toast.success("Board created")
     }).catch((error) => {
       toast.error("Something went wrong")
     })
